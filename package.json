@@ -6,7 +6,7 @@
   "scripts": {
     "build": "npx tsc",
     "start": "npx tsc && node dist/src/index.js",
-    "start:dev": "nodemon src/index.ts",
+    "start:dev": "nodemon src/index2.ts",
     "start:prod": "node dist/src/index.js",
     "lint": "eslint --config=.eslintrc.js .",
     "lint:fix": "eslint --config=.eslintrc.js . --fix",
